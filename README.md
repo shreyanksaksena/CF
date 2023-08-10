@@ -3,7 +3,7 @@
 Would Be Solving Various Codeforces Questions Here
 To lazy to maintain this repo thats y left pushing changes thanks :p
 
-
+```
 Week-1: C++ Basics 1 /  C++ STL Revision
 Week-2: C++ Basics 2 + Online Judge Introduction / Recursion + Memoization
 Week-3: Time and Space Complexity / Backtracking
@@ -17,3 +17,4 @@ Week-10: Recursion / Advanced Binary Search
 Week-11: Problem Solving / Advanced Bit Manipulation + DP with bit-masking
 Week-12: Basic Bitwise Operators / Problem Solving
 
+```
