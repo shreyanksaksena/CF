@@ -10,6 +10,7 @@ int main()
 	cin >> F2 >> S2  ;
 	if(S1==S2)
 		cout<<"ARE Brothers"<<endl;
-	else 
+	else
 	cout<<"NOT"<<endl ;
+	return 0 ;
 	}
