@@ -1,42 +1,54 @@
-#    J. Multiples
-time limit per test 1 second
-memory limit per test 256 megabytes
-input: standard input
-output: standard output
+#    L. The Brothers
+time limit per test1 second
+memory limit per test256 megabytes
+inputstandard input
+outputstandard output
+Given two person names.
 
-Given two numbers A and B. Print "Multiples" if A is multiple of B or vice versa. Otherwise print "No Multiples".
+Each person has {"the first name" + "the second name"}
+
+Determine whether they are brothers or not.
+
+Note: The two persons are brothers if they share the same second name.
 
 Input
-Only one line containing two numbers A, B (1  ≤  A, B  ≤  106)
+First line will contain two Strings F1, S1 which donates the first and second name of the 1st person.
+
+Second line will contain two Strings F2, S2 which donates the first and second name of the 2nd person.
 
 Output
-Print the "Multiples" or "No Multiples" corresponding to the read numbers.
+Print "ARE Brothers" if they are brothers otherwise print "NOT".
 
 Examples
 
 Input
 ```
-9 3
+bassam ramadan
+ahmed ramadan
 ```
 
 Output
 ```
-Multiples
+ARE Brothers
 ```
 Input
 ```
-6 24
+ali salah
+ayman salah
 ```
 output
 ```
-Multiples
+ARE Brothers
 ```
 input
 ```
-12 5
+ali kamel
+ali salah
 ```
 output
-No Multiples
+```
+NOT
+```
 
 Note
 ***A is said to be Multiple of B if B is divisible by A.
