@@ -1,42 +1,42 @@
-#    J. Multiples
-time limit per test 1 second
-memory limit per test 256 megabytes
-input: standard input
-output: standard output
-
-Given two numbers A and B. Print "Multiples" if A is multiple of B or vice versa. Otherwise print "No Multiples".
+#    I. Welcome for you with Conditions
+time limit per test1 second
+memory limit per test64 megabytes
+inputstandard input
+outputstandard output
+Given two numbers A and B. Print "Yes" if A is greater than or equal to B. Otherwise print "No".
 
 Input
-Only one line containing two numbers A, B (1  ≤  A, B  ≤  106)
+Only one line containing two numbers A and B (0  ≤  A, B  ≤  100).
 
 Output
-Print the "Multiples" or "No Multiples" corresponding to the read numbers.
-
+Print "Yes" or "No" according to the statement.
 Examples
 
 Input
 ```
-9 3
+10 9 
 ```
 
 Output
 ```
-Multiples
+Yes
 ```
 Input
 ```
-6 24
+5 5 
 ```
 output
 ```
-Multiples
+Yes
 ```
 input
 ```
-12 5
+5 7
 ```
 output
-No Multiples
+```
+No
+```
 
 Note
 ***A is said to be Multiple of B if B is divisible by A.
